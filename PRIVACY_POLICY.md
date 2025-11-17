@@ -19,7 +19,7 @@ The App may request network permissions only for:
 - Opening external websites when you click links (optional feature)
 - These permissions are not required for core app functionality
 
-## 2. Information We Collect
+## 2. Information The App Uses
 
 ### 2.1 Financial Data
 The App allows you to import and manage your personal financial data, including:
@@ -35,11 +35,6 @@ The App allows you to import and manage your personal financial data, including:
 The App stores local preferences on your device, including:
 - Dashboard tile arrangement and order
 - User interface preferences
-
-### 2.3 Technical Information
-The App may collect minimal technical information necessary for app functionality:
-- Device storage access (for reading and writing CSV files)
-- File system access (for importing and exporting data)
 
 ## 3. How We Use Your Information
 
@@ -63,7 +58,7 @@ We use your information solely to:
 - All financial data is stored locally on your device
 - CSV files you import remain on your device
 - App preferences are stored using device-local storage (SharedPreferences)
-- No data is stored on external servers or cloud services
+- No data is stored on, or transmitted to external servers or cloud services
 
 ### 4.2 Data Security
 - The App operates completely offline
@@ -72,8 +67,8 @@ We use your information solely to:
 - We do not have access to your data
 
 ### 4.3 Data Retention
-- Your data remains on your device until you delete it
-- You can delete the app at any time, which removes all locally stored data
+- Your data remains on your device until you close the app
+- You can delete the app at any time, which removes all locally stored config data
 - Exported CSV files are under your control and stored where you choose
 
 ## 5. Data Sharing and Disclosure
